@@ -32,26 +32,20 @@ $total = count($contactos);
         <h1>Agenda telefónica</h1>
         <h2>Registro de contactos</h2>
 
-        <form method="get" action="agenda.php" class="formulario-filtros">
-            <div class="campo-filtro">
+        <form method="get" action="index.php" class="formulario-filtros">
+            <div class="campo-filtro campo-nombre">
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" value="<?php echo htmlspecialchars($nombre); 
-                ?>
-                " placeholder="Filtrar por nombre">
+                <input type="text" id="nombre" name="nombre"placeholder="Filtrar por nombre">
             </div>
 
-            <div class="campo-filtro">
+            <div class="campo-filtro campo-apellido">
                 <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" value="<?php echo htmlspecialchars($apellido); 
-                ?>
-                " placeholder="Filtrar por apellido">
+                <input type="text" id="apellido" name="apellido"placeholder="Filtrar por apellido">
             </div>
 
-            <div class="campo-filtro">
+            <div class="campo-filtro campo-ciudad">
                 <label for="ciudad">Ciudad</label>
-                <input type="text" id="ciudad" name="ciudad" value="<?php echo htmlspecialchars($ciudad); 
-                ?>
-                " placeholder="Filtrar por ciudad">
+                <input type="text" id="ciudad" name="ciudad"placeholder="Filtrar por ciudad">
             </div>
 
             <div class="boton-filtro">
