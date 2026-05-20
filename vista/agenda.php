@@ -75,13 +75,13 @@ $total = count($contactos);
                 <tbody>
                     <?php foreach ($contactos as $contacto): ?>
                         <tr>
-                            <td><?php echo htmlspecialchars($contacto["id"]); ?></td>
-                            <td><?php echo htmlspecialchars($contacto["nombre"]); ?></td>
-                            <td><?php echo htmlspecialchars($contacto["apellido"]); ?></td>
-                            <td><?php echo htmlspecialchars($contacto["telefono"]); ?></td>
-                            <td><?php echo htmlspecialchars($contacto["ciudad"]); ?></td>
-                            <td><?php echo htmlspecialchars($contacto["direccion"]); ?></td>
-                            <td><?php echo htmlspecialchars($contacto["notas"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Id"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Nombre"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Apellido"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Telefono"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Ciudad"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Direccion"]); ?></td>
+                            <td><?php echo htmlspecialchars($contacto["Notas"]); ?></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
