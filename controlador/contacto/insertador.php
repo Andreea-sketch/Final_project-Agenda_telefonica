@@ -36,7 +36,7 @@ class InsertadorContacto
                                     $this->nombreTabla[2],
                                     $this->nombreTabla[3],
                                     $this->nombreTabla[4],
-                                    $this->nombreTabla[5]
+                                    $this->nombreTabla[5],
                                     $this->nombreTabla[6])".
         "VALUES (\"$id\", \"$nombre\", \"$apellido\", \"$telefono\", \"$ciudad\", \"$direccion\", \"$notas\")";
 
