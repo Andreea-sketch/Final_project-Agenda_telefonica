@@ -38,6 +38,7 @@ class InsertadorContacto
                                     $this->nombreTabla[4],
                                     $this->nombreTabla[5],
                                     $this->nombreTabla[6])".
+                                    
         "VALUES (\"$id\", \"$nombre\", \"$apellido\", \"$telefono\", \"$ciudad\", \"$direccion\", \"$notas\")";
 
         $respuesta = $this->pdo->exec($sql);
