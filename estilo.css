@@ -1,70 +1,138 @@
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background-color: #f4f6fb;
     margin: 0;
     padding: 0;
 }
 
 .contenedor {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1150px;
     margin: 30px auto;
     background-color: #ffffff;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
-h1, h2 {
+/* Titluri */
+
+h1 {
+    color: #16325c;
+    margin-bottom: 4px;
     text-align: center;
-    color: #333333;
 }
 
-.formulario,
-.buscador {
+h2 {
+    color: #555555;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+/* Formular filtre */
+
+.formulario-filtros {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 16px;
+    align-items: flex-end;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
-input,
-textarea,
-button {
-    padding: 10px;
-    font-size: 16px;
+.campo-filtro {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
 }
 
-input,
-textarea {
-    flex: 1 1 250px;
+.campo-filtro label {
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #16325c;
+    font-size: 14px;
 }
 
-button {
-    background-color: #0077cc;
-    color: white;
+.campo-filtro input {
+    height: 34px;
+    padding: 4px 8px;
+    border: 1px solid #cfd8e3;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Culori diferite pentru fiecare câmp */
+
+.campo-nombre input {
+    background-color: #fffde7;  /* galben foarte deschis */
+    border-color: #fbc02d;
+}
+
+.campo-apellido input {
+    background-color: #e3f2fd;  /* albastru foarte deschis */
+    border-color: #1e88e5;
+}
+
+.campo-ciudad input {
+    background-color: #e8f5e9;  /* verde foarte deschis */
+    border-color: #43a047;
+}
+
+/* Buton căutare */
+
+.boton-filtro {
+    margin-left: auto;
+}
+
+.boton-filtro button {
+    height: 34px;
+    padding: 0 14px;
+    background-color: #1976d2;
+    color: #ffffff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 14px;
 }
+
+.boton-filtro button:hover {
+    background-color: #125ca1;
+}
+
+/* Tabel contacte */
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
-table,
-th,
-td {
-    border: 1px solid #cccccc;
-}
-
-th,
-td {
-    padding: 10px;
+table th,
+table td {
+    border: 1px solid #d9e2ec;
+    padding: 8px 10px;
     text-align: left;
 }
 
-th {
-    background-color: #0077cc;
-    color: white;
+table th {
+    background-color: #1e88e5;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Text sub tabel */
+
+.total {
+    margin-top: 12px;
+    color: #16325c;
+    font-weight: bold;
+}
+
+.sin-datos {
+    margin-top: 12px;
+    color: #c62828;
+    font-weight: bold;
 }
