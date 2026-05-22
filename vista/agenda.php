@@ -29,7 +29,7 @@ $total = count($contactos);
 <style>
 body 
 {
-  background-image: url("fondo-telefonos.jpeg");
+  background-image: url("/fondo-telefonos.jpeg");
 }
 </style>
 </head>
