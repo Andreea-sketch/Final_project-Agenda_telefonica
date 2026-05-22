@@ -1,7 +1,10 @@
+/* Stilo general pagina */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6fb;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -10,13 +13,13 @@ body {
     width: 90%;
     max-width: 1150px;
     margin: 30px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.94);
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Titluri */
+/* Titulo */
 
 h1 {
     color: #16325c;
@@ -31,7 +34,7 @@ h2 {
     text-align: center;
 }
 
-/* Formular filtre */
+/* Formulario filtros */
 
 .formulario-filtros {
     display: flex;
@@ -63,7 +66,7 @@ h2 {
     box-sizing: border-box;
 }
 
-/* Culori diferite pentru fiecare câmp */
+/* Colores diferentes para cada campo */
 
 .campo-nombre input {
     background-color: #fffde7;  /* galben foarte deschis */
@@ -80,7 +83,7 @@ h2 {
     border-color: #43a047;
 }
 
-/* Buton căutare */
+/* Botón de búsqueda */
 
 .boton-filtro {
     margin-left: auto;
@@ -101,7 +104,7 @@ h2 {
     background-color: #125ca1;
 }
 
-/* Tabel contacte */
+/* Table contacto */
 
 table {
     width: 100%;
@@ -123,7 +126,7 @@ table th {
     font-weight: bold;
 }
 
-/* Text sub tabel */
+/* Texto debajo de la tabla */
 
 .total {
     margin-top: 12px;
