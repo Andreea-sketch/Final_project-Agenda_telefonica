@@ -25,13 +25,7 @@ $total = count($contactos);
 <head>
     <meta charset="UTF-8">
     <title>Agenda telefónica</title>
-    <link rel="stylesheet" href="../estilo.css">
-<style>
-body 
-{
-  background-image: url("/fondo-telefonos.jpeg");
-}
-</style>
+    <link rel="stylesheet" href="../estilo1.css">
 </head>
 <body>
     <div class="contenedor">
